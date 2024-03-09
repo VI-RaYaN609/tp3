@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(71, 89, 90);
+    overflow:hidden;
+}
+a{
+    text-decoration: none;
+    color: rgb(8, 8, 46);
+    font-size: 25px;
+    font-weight: 900;
+    transition: 1s ease;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+h3{
+    transition: 1s ease;
+    margin: auto;
+    width:fit-content;
+    margin-bottom: 30px;
+}
+h3:hover{
+    background-color: rgb(17, 88, 88);
+    color: rgb(23, 23, 122);
+    border-radius: 50px;
+}
+h3:hover a{
+    color: whitesmoke;
+}

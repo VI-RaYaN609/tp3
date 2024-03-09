@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: white;
+            text-align: center;
+        }
+        input{
+            margin-bottom: 15px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        select{
+            margin-bottom:40px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+    <h2>Type New Order's Informations</h2>
+    <label>Order Id:</label>
+    <input type="txt" required><br>
+    <label>Date:</label>
+    <input type="date"required><br>
+    <label>Total Amount:</label>
+    <input type="number"required><br>
+    <label>Paiement Type:</label>
+    <input type="radio"id="PaiementType1" name="PaiementType" required>
+    <label for="PaiementType1">Cash</label>
+    <input type="radio"id="PaiementType2" name="PaiementType" required>
+    <label for="PaiementType2">Virement</label><br>
+    <label>Domiciliation:</label>
+    <select>
+        <option>ALG Poste</option>
+        <option>BNA</option>
+        <option>CPA</option>
+    </select>
+    <br>
+    <button type="submit"><a href="added.html" target="3">Add</a></button>
+    <input type="reset">
+  </form>
+</body>
+</html>
