@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/813a01fbc7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <ul class="middle">
+            <li><a href=""><img class="logo" src="	https://store.cloudflare.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" alt="cteam.com/store"></a></li>
+            <li><a href="store.html">Store</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="support.html">Support</a></li>
+        </ul>
+        <div class="profile">
+            <div class="cart-container">
+               <i class="fa-solid fa-cart-shopping" id="cart"><p class="cart-amount"></p></i>
+               <div class="cartDrop">
+                    <ul class="cart-content">
+                    </ul>
+                    <h2>Check Out</h2>
+               </div>
+            </div>
+            <div class="profile-information">
+               <h1>Username &#9660;</h1>
+               <h2 style="text-align: center;">0.00 $</h2>
+               <ul class="hidden">
+                   <li><a href=""><p>View Profile</p></a></li>
+                   <li><a href=""><p>Account Details</p></a></li>
+                   <li><a href=""><p>Sign Out of account</p></a></li>
+                </ul>
+            </div>
+            <img class="profile-image" src="" alt="">
+        </div>
+    </header>
+    <main class="newMain">
+        <div class="game-content-container">
+            <div class="images">
+
+            </div>
+            <div class="information-container">
+                <img class="single-game-image"src="${data.results[i].background_image}">
+                <div class="description">
+                    <h3>Recent Reviews :</h2>
+                    <h3 style="display:flex">All Reviews : ${data.results[i].rating}/5⭐ <p style="font-size:15px;">(${data.results[i].ratings_count})</p></h2>
+                    <br>
+                    <h3>Release Date :</h2>
+                    <br>
+                    <h3>Developer :</h2>
+                </div>
+                <div class="tags"></div>
+         </div>
+         </div>
+    </main>
+    <footer>
+        <ul class="top-footer">
+            <li>© 2024 Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.
+                VAT included in all prices where applicable.   Privacy Policy   |   Legal   |   Steam Subscriber Agreement   |   Refunds   |   Cookies
+            </li>
+            <li></li>
+        </ul>
+        <ul class="bottom-footer">
+            <li>About us</li>
+            <li>Support</li>
+            <li>Gift Cards </li>
+        </ul>
+    </footer> 
+    <script src="index.js"></script>
+    <script src="usercheck.js"></script>
+</body>
+</html>
